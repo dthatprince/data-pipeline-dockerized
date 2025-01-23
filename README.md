@@ -10,5 +10,6 @@ This repository contains a Docker-based data ingestion pipeline that automates t
 - **PgAdmin**: For database management and visualization.
 
 ## Architecture
-![Architecture Diagram](diag.png)
+<img src="diag.png" alt="Architecture Diagram" width="600">
+
 *Diagram illustrating the component interactions within the Docker network.*
