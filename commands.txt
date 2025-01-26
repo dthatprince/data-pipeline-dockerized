@@ -98,6 +98,8 @@ http://localhost:8000
 
 
 # docker compose - close - postgres, pgadmin containers
+# make sure pgadmin folder is prsent in the current working directory, otherwise the volume will not be created and the data will not be persistent.
+
 winpty docker-compose up
 winpty docker-compose up -d
 winpty docker-compose down
